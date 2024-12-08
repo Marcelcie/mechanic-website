@@ -1,0 +1,152 @@
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-12-08 20:23:42] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-12-08 20:23:42] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422\
+[2024-12-08 20:23:42] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/mechanic-website/
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-12-08 20:23:42] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-12-08 20:23:42] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-12-08 20:23:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/mechanic-website/
+[2024-12-08 20:23:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-12-08 20:23:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-08 20:23:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/6756004e94dc3-42qY8h.tmp
+[2024-12-08 20:23:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website/?simply_static_page=1
+[2024-12-08 20:23:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website/?simply_static_page=1
+[2024-12-08 20:23:43] [class-ss-url-fetcher.php:103] Filesize: 16840 bytes
+[2024-12-08 20:23:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-08 20:23:43] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-12-08 20:23:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ciesl\AppData\Local\Temp/6756004e94dc3-42qY8h.tmp to C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422/index.html
+[2024-12-08 20:23:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-08 20:23:44] [class-ss-page.php:119] Checking Content Identical:737a75b68cda5597936c4134ea03b26ae33f3e38===. Value: FALSE
+[2024-12-08 20:23:44] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-12-08 20:23:44] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-12-08 20:23:44] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-12-08 20:23:44] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:69] Total pages: 4; Pages remaining: 3
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/mechanic-website/feed/
+[2024-12-08 20:23:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 4
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/675600503efdf-K8Ma7Q.tmp
+[2024-12-08 20:23:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website/feed/?simply_static_page=2
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website/feed/?simply_static_page=2
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:103] Filesize: 1782 bytes
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ciesl\AppData\Local\Temp/675600503efdf-K8Ma7Q.tmp to C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422/feed/index.xml
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-08 20:23:44] [class-ss-page.php:119] Checking Content Identical:0990637e008e45b5695891a39ec4baf36e553e20===. Value: FALSE
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/mechanic-website/comments/feed/
+[2024-12-08 20:23:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 4
+[2024-12-08 20:23:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/67560050bfc2b-8TTZvD.tmp
+[2024-12-08 20:23:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website/comments/feed/?simply_static_page=3
+[2024-12-08 20:23:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website/comments/feed/?simply_static_page=3
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:103] Filesize: 1755 bytes
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ciesl\AppData\Local\Temp/67560050bfc2b-8TTZvD.tmp to C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422/comments/feed/index.xml
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-08 20:23:45] [class-ss-page.php:119] Checking Content Identical:0560a8c805521e3ed328bc49bb7274b7dee81aaf===. Value: FALSE
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/mechanic-website/wp-content/uploads/oxygen/css/universal.css
+[2024-12-08 20:23:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 4
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/6756005145f18-9eee8x.tmp
+[2024-12-08 20:23:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website/wp-content/uploads/oxygen/css/universal.css?simply_static_page=4
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website/wp-content/uploads/oxygen/css/universal.css?simply_static_page=4
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:103] Filesize: 15096 bytes
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/oxygen/css/universal.css
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ciesl\AppData\Local\Temp/6756005145f18-9eee8x.tmp to C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422/wp-content/uploads/oxygen/css/universal.css
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-08 20:23:45] [class-ss-page.php:119] Checking Content Identical:225f4ab21e6e147793e34102a630d77c76921f3b===. Value: FALSE
+[2024-12-08 20:23:45] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 4 pages/files
+[2024-12-08 20:23:45] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-12-08 20:23:45] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-12-08 20:23:45] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:69] Total pages: 7; Pages remaining: 3
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/mechanic-website
+[2024-12-08 20:23:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 7
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/6756005152e8f-btT014.tmp
+[2024-12-08 20:23:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website?simply_static_page=5
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website?simply_static_page=5
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:103] Filesize: 362 bytes
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/mechanic-website/
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/mechanic-website/2024/12/08/witaj-swiecie/
+[2024-12-08 20:23:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 7
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/6756005158168-04t5rN.tmp
+[2024-12-08 20:23:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website/2024/12/08/witaj-swiecie/?simply_static_page=6
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website/2024/12/08/witaj-swiecie/?simply_static_page=6
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:103] Filesize: 21328 bytes
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:233] New filename for static page: /2024/12/08/witaj-swiecie/index.html
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ciesl\AppData\Local\Temp/6756005158168-04t5rN.tmp to C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422/2024/12/08/witaj-swiecie/index.html
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-08 20:23:45] [class-ss-page.php:119] Checking Content Identical:523514417442c4271b3f1e791e931a78c42c1cb9===. Value: FALSE
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/mechanic-website/2024/12/08/witaj-swiecie/feed/
+[2024-12-08 20:23:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 7
+[2024-12-08 20:23:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/67560051e5cba-G80iQQ.tmp
+[2024-12-08 20:23:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website/2024/12/08/witaj-swiecie/feed/?simply_static_page=7
+[2024-12-08 20:23:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website/2024/12/08/witaj-swiecie/feed/?simply_static_page=7
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:103] Filesize: 1755 bytes
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:233] New filename for static page: /2024/12/08/witaj-swiecie/feed/index.xml
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ciesl\AppData\Local\Temp/67560051e5cba-G80iQQ.tmp to C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422/2024/12/08/witaj-swiecie/feed/index.xml
+[2024-12-08 20:23:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-08 20:23:46] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-12-08 20:23:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-08 20:23:46] [class-ss-page.php:119] Checking Content Identical:a67d77a2f183838ac84edbe8691713e8ad3e3838===. Value: FALSE
+[2024-12-08 20:23:46] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 4 of 7 pages/files
+[2024-12-08 20:23:46] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-12-08 20:23:46] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-12-08 20:23:46] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-12-08 20:23:46] [class-ss-fetch-urls-task.php:69] Total pages: 7; Pages remaining: 0
+[2024-12-08 20:23:46] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 7 of 7 pages/files
+[2024-12-08 20:23:46] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-12-08 20:23:46] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-12-08 20:23:46] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-12-08 20:23:46] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ciesl\AppData\Local\Temp/67560052754f0-piFMiy.tmp
+[2024-12-08 20:23:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/mechanic-website/1733689427?simply_static_page=0
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/mechanic-website/1733689427?simply_static_page=0
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:103] Filesize: 15828 bytes
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-12-08 20:23:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ciesl\AppData\Local\Temp/67560052754f0-piFMiy.tmp to C:\xampp\htdocs\mechanic-website/wp-content/uploads\simply-static\temp-files/simply-static-1-1733689422\404/index.html
+[2024-12-08 20:23:46] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-12-08 20:23:47] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-12-08 20:23:47] [class-ss-page.php:119] Checking Content Identical:6b5266bc14639b3336ce9f2c160187ba495e142d===. Value: FALSE
+[2024-12-08 20:23:47] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-12-08 20:23:47] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-12-08 20:23:47] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-12-08 20:23:47] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/mechanic-website/wp-content/uploads/simply-static/temp-files/simply-static-1-1733689422.zip">Click here to download</a>
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-12-08 20:23:47] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-12-08 20:23:47] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-12-08 20:23:47] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:05
