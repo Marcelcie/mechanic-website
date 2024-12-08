@@ -6,7 +6,7 @@
 CTFrontendBuilder.controller("ControllerFonts", function($scope, $http, $timeout) {
 
 	// TODO: change API key from personal to corporate?
-	$scope.APIKey 		= "AIzaSyBlDz9OGMf_5_-QxgHPTjjmvYVzEauwcQE";
+	$scope.APIKey 		= "";
 	$scope.WebFontsUrl 	= "https://www.googleapis.com/webfonts/v1/webfonts";
 
 	// Set default web fonts
